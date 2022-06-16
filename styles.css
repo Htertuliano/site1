@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url(setup2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 30%;
+    font-family: Sans-Serif;
+    color: white;
+    overflow: hidden;
+}
+
+.thisLI {
+    color: rgba(49, 72, 97, 255);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: antiquewhite double 5px;
+    padding-bottom: 0mm;
+}
+
+.imgLogo {
+    float: left;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(76, 214, 230);
+    text-decoration: wavy;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.spans {
+    font-style: italic;
+    font-weight: 800;
+    padding-top: 10mm;
+    padding-right: 40mm;
+    text-align: center;
+    width: 100%;
+}
+
+.mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2mm;
+    color: black;
+}
+
+.div1, .div2, .div3 {
+    width: 30%;
+
+}
+
+tr:nth-child(even) {
+    background-color: #eedd6f;
+}
+
+.hobbies {
+    padding-top: 10mm;
+}
+
+
+span {
+    color: black;
+    padding-left: 10mm;
+    padding-right: 5mm;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2mm;
+    position:fixed;
+    bottom:1mm;
+}
+.headshot {
+    text-align: center;
+    padding-left: 240mm;
+}
+.headdy {
+    border-radius: 35mm;
+}
